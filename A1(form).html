@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Form</title>
+</head>
+<body>
+    <form>
+
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name"><br>
+     
+        <input type="range" name="range1" id="range1">
+        Food
+        <input list="food" name="food">
+        <datalist id="food">
+            <option value="pizza">pizza</option>
+            <option value="pasta">pasta</option>
+            <option value="dosa">dosa</option>
+            <option value="noodles">noodles</option>
+            <option value="idli">idli</option>
+            <option value="chaape">chaape</option>
+        </datalist>
+
+        <label for="num">Number</label>
+        <input type="number" name="num" id="num" step="0.1"><br>
+
+        <textarea name="text1" id="text1" rows="5" cols="15">value of text area</textarea>
+
+        <input type="radio" name="radio" id="radio">
+        <label for="radio" >Radio</label>
+         
+        <button type="button" id="button1" onclick="alert ('hello World!')">My Button</button>
+
+        <input type="radio" name="radio" id="radio">
+        <label for="radio" >TV</label>
+
+        <input type="radio" name="radio" id="radio">
+        <label for="radio">AC</label><br>
+
+
+         
+        <label for = "food">Food</label>
+        <input type="checkbox" name="Food" id="food"><br>
+
+        <label for="select">select one</label>
+        <select name="select" id="select" size="2" multiple>
+            <option value="pizza">pizza</option>
+            <option value="burger">burger</option>
+            <option value="pasta" selected>pasta</option>
+            <option value="noodles">noodles</option>
+        </select>
+
+        <input type="button" value="Submit" >
+        <br>
+        <br>
+
+        <fieldset>
+            <legend>Enter Name: </legend>
+              
+            <label for="fname">First Name</label>
+            <input type="text" name="name" id="fname"><br>
+
+            <label for="Mname">Midd Name</label>
+            <input type="text" name="name" id="Mname"><br>
+
+            <label for="Lname">Last Name</label>
+            <input type="text" name="name" id="Lname"><br>
+
+        </fieldset>
+        <br>
+        <br>
+
+    </form>
+</body>
+</html>
